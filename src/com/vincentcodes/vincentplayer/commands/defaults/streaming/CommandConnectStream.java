@@ -20,7 +20,7 @@ public class CommandConnectStream implements Command {
         String ip = null;
         String protocol = VincentPlayer.DEFAULT_STREAMING_PROTOCOL;
         int port = VincentPlayer.DEFAULT_STREAMING_PORT;
-        if(args.length == 2){
+        if(args.length >= 2){
             if(args[1].contains(":")){
                 String[] splited = args[1].split(":");
                 protocol = splited[0];
@@ -28,7 +28,7 @@ public class CommandConnectStream implements Command {
             }else
                 ip = args[1];
         }
-        if(args.length == 3){
+        if(args.length >= 3){
             port = Integer.parseInt(args[2]);
         }
 

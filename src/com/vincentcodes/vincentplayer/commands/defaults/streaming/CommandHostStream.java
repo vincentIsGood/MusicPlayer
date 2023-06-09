@@ -1,6 +1,7 @@
 package com.vincentcodes.vincentplayer.commands.defaults.streaming;
 
 import java.io.IOException;
+import java.util.Arrays;
 
 import com.vincentcodes.vincentplayer.VincentPlayer;
 import com.vincentcodes.vincentplayer.commands.Command;
@@ -36,9 +37,9 @@ public class CommandHostStream implements Command {
         }
 
         String[] args = e.getParsedCommand();
-        if(args.length == 2)
+        if(args.length >= 2)
             port = Integer.parseInt(args[1]);
-        if(args.length == 3)
+        if(args.length >= 3)
             protocol = args[2];
         try{
             StreamingDevice streamingDevice = null;

@@ -25,7 +25,7 @@ public class Song{
     private static final int MICRO_TO_ONE_SEC = 1000 * 1000;
 
     private final int songId;
-    
+
     private FloatControl volControl;
     private AudioFormat format;
     private File file;
@@ -368,9 +368,9 @@ public class Song{
     
     // TODO: improve this
     public String toString(){
-        if(VincentPlayer.VAR_OS.contains("win")){
-            return songId + " " + getName();
-        }
+        // if(VincentPlayer.VAR_OS.contains("win")){
+        //     return songId + " " + getName();
+        // }
         return getName();
     }
 }
