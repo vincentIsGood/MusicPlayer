@@ -1,5 +1,5 @@
 0_*
 lib/combined
-com/
+*.class
 *.png
 *.mp3
