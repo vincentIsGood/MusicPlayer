@@ -1,0 +1,11 @@
+Documentation of the changes starts from
+v2.4 and v2.5 onwards.
+
+v2.3 - 27/10/2020 (DD/MM/YYYY)
+v2.4 - bugs encountered while loading an approximately 260MB of wav into the player.
+v2.5 - Clip is not used. Instead, it is replaced by SourceDataLine which is much better. (see Song.java)
+       (I used one day to do the whole replacement, though bugs are not found YET. 4/2/2021 DD/MM/YYYY)
+v3.0 - For Windows users, VincentPlayer now uses shift-jis console input encoding. Unix-like system stays unchanged.
+       Echo mode is implemented to show interpreted input command. see "toggleecho" command
+v4.0 - utilizing my new UdpSocket library for song streaming.
+v5.0 - added support to stream audio on tcp / udp

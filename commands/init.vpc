@@ -1,0 +1,79 @@
+// Available GLOBAL_VARIABLES = [HOME], [COMMANDS], [PREVIOUS]
+// Using UTF-8 encoding
+
+cd [HOME]
+cd Songs
+
+addall
+
+addplaylist songs
+addplaylist gup
+addplaylist kiniro
+addplaylist haifuri
+addplaylist yuruyuri
+addplaylist arpeggio
+addplaylist reallygood
+
+setplaylist songs
+
+log false
+
+// GUP
+// addtoplaylist songs 03.
+addtoplaylist gup 03._life
+addtoplaylist gup 01._Dream
+addtoplaylist gup 01IFound
+addtoplaylist gup 02Queen
+addtoplaylist gup 03OK!
+addtoplaylist gup 04Nuovo
+addtoplaylist gup 05Great
+addtoplaylist gup 06Hibike
+addtoplaylist gup 07Important
+addtoplaylist gup 08Wonderland
+addtoplaylist gup 09MeinWeg
+
+// Kiniro Mosaic
+addtoplaylist songs 01._夢色
+addtoplaylist songs 01._J
+addtoplaylist kiniro 01._夢色
+addtoplaylist kiniro 01._J
+
+// High School Fleet
+addtoplaylist songs "01.High Free Spirits"
+addtoplaylist songs 01.Ripple
+addtoplaylist songs 01.わ
+addtoplaylist haifuri 01.High
+addtoplaylist haifuri 01.Ripple
+addtoplaylist haifuri 01.わ
+
+// YuruYuri
+addtoplaylist songs 君がくれたシャイニーストーリー
+addtoplaylist yuruyuri 君がくれたシャイニーストーリー
+
+//Arpeggio of Blue Steel
+addtoplaylist songs 01.BlueField
+addtoplaylist songs 01.BLUE
+addtoplaylist songs 09.Innocent
+addtoplaylist songs 10.BlueSky
+addtoplaylist songs 11.Aoki
+addtoplaylist arpeggio 01.BlueField
+addtoplaylist arpeggio 01.BLUE
+addtoplaylist arpeggio 09.Innocent
+addtoplaylist arpeggio 10.BlueSky
+addtoplaylist arpeggio 11.Aoki
+addtoplaylist arpeggio "Blue Destiny"
+
+//Really good playlist
+//addtoplaylist reallygood Twinkle
+//addtoplaylist reallygood Sweet
+addtoplaylist reallygood "Yunomi & nicamoq - Indoor Kei Nara Trackmaker Modified"
+addtoplaylist reallygood 2U_Night_Drive
+
+log true
+
+useplaylist
+
+shuffle
+
+info
+cd [PREVIOUS]

@@ -1,0 +1,35 @@
+// Available GLOBAL_VARIABLES = [HOME], [COMMANDS], [PREVIOUS]
+// Using UTF-8 encoding
+
+addplaylist all
+
+log false
+
+addtoplaylist all 01._D
+addtoplaylist all 01._J
+addtoplaylist all 01._夢
+addtoplaylist all "01.High Free Spirits"
+addtoplaylist all 01.Ripple
+addtoplaylist all 01.わたし
+addtoplaylist all 01IFound
+addtoplaylist all 02._Your
+addtoplaylist all 02Queen
+addtoplaylist all 03._life
+addtoplaylist all 03OK!
+addtoplaylist all 04Nuovo
+addtoplaylist all 05Great
+addtoplaylist all 07Important
+addtoplaylist all 08Wonderland
+addtoplaylist all 09MeinWeg
+addtoplaylist all 君がくれたシャイニーストーリー
+addtoplaylist all 01.BlueField
+addtoplaylist all 01.BLUE
+addtoplaylist all 09.Innocent
+addtoplaylist all 10.BlueSky
+addtoplaylist all "Blue Destiny"
+addtoplaylist all Twinkle
+addtoplaylist all Sweet
+addtoplaylist all "Yunomi & nicamoq - Indoor Kei Nara Trackmaker Modified"
+addtoplaylist all 2U_Night_Drive
+
+log true

@@ -1,0 +1,22 @@
+// This is a comment.
+
+// Available GLOBAL_VARIABLES = [[HOME], [COMMANDS], [PREVIOUS]]
+// [COMMANDS] points to "commands/" directory.
+// [PREVIOUS] points to the directory before using the "cd" command
+// [HOME]     points to the directory where "VincentPlayer_###.jar" is located
+
+// The syntax is fairly simple -- "{Command} {arguments}..."
+
+// Only ONE command takes more than 1 arguments --
+// addtoplaylist {playlistName} {songName}
+
+// Note: use "useplaylist" to enable the application to use playlists
+// Note: use "setplaylist {playlistName}" to choose to use this playlist
+// > func ((.vpc)file in your current directory)
+
+cd [COMMANDS]
+func init
+
+cd [COMMANDS]
+func mkallsongsplaylist
+cd [PREVIOUS]
