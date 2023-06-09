@@ -35,7 +35,7 @@ func [file]  -- eg. to run "init.vpc", do "func init"
 Simple Demonstration on localhost. 
 
 Client 1:
-```
+```sh
 add test.mp3
 play test.mp3
 
@@ -46,12 +46,14 @@ stopstream
 ```
 
 Client 2:
-```
+```sh
 connectstream 127.0.0.1 1234
 
 // if you wanna stop
 stopstream
 ```
+
+Streams should work on multiple clients connecting to the same host.
 
 ## Scripting
 See `*.vpc` files for reference. Comments are provided within the files.
